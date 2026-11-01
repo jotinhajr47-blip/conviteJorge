@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1 aninho do Jorge</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. VÍDEO DA CAPA -->
+  <section class="capa">
+    <video id="video-capa" src="video/video-pag.mp4" autoplay muted loop playsinline></video>
+    <button id="btn-som" type="button">🔇 Ativar som</button>
+  </section>
+
+  <!-- 2. CONVITE -->
+  <main class="convite">
+    <p class="subtitulo">1 aninho do</p>
+    <h1>Jorge</h1>
+
+    <p class="chamada">Venha comemorar comigo o meu 1º aniversário numa super dinofesta!</p>
+
+    <div class="data-hora">
+      <p class="data">22 de <span>novembro</span></p>
+      <img class="dino-centro" src="img/dinossauro-2.png" alt="Dinossauro bebê">
+      <p class="hora">Às <span>17h</span></p>
+    </div>
+
+    <h2>Escola Dona Hilza Diogo de Oliveira</h2>
+    <p class="endereco">Av. Dom Aloísio Lorscheider, 1040 - Vila Velha</p>
+
+    <p class="aviso">Querido(a) convidado(a), para que possamos aproveitar cada momento juntos, pedimos a gentileza de chegar pontualmente.</p>
+
+    <!-- BOTÕES -->
+   <div class="botoes">
+  <a class="botao" href="https://wa.me/5585994322797" target="_blank">Confirmar presença</a>
+  <a class="botao" href="https://maps.app.goo.gl/dQUi7aTrBbkvPJi4A" target="_blank">Localização</a>
+  <button type="button" class="botao" id="btn-presentes">Sugestão de Presentes</button>
+</div>
+
+<div class="modal" id="modal-presentes">
+  <button type="button" class="fechar" id="fechar-modal">✕</button>
+  <img src="img/lista-presentes.png" alt="Lista de sugestões de presentes">
+</div>
+
+    <!-- PERSONAGENS (vão se mexer com CSS) -->
+    <div class="personagens">
+      <img class="dino-esquerda" src="img/dinossauro-3.png" alt="Dinossauro verde">
+      <img class="crianca-balao" src="img/crianca.png" alt="Criança fantasiada de dinossauro com balão">
+      <img class="dino-direita" src="img/dinossauro-4.png" alt="Dinossauro azul">
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
